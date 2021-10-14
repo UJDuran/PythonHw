@@ -10,5 +10,3 @@ def multiply_list():
         product = product * i
         if i == 0:
             return bool(0)
-
-    print (product)X
