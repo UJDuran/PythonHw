@@ -1,7 +1,7 @@
 def calculator(number1, number2, operator):
-    operatorsList = ["+", "-", "*", "/", "//", "**"]
+    operatorList = ["+", "-", "*", "/", "//", "**"]
 
-    if operator in operatorsList:
+    if operator in operatorList:
         if operator == operatorList[0]:
             return (number1 + number2)
         elif operator == operatorList[1]:
