@@ -3,7 +3,7 @@ def calculator(number1, number2, operator):
 
     if operator in operatorsList:
         if operator == operatorList[0]:
-            return (number1 + number 2)
+            return (number1 + number2)
         elif operator == operatorList[1]:
             return (number1 - number2)
         elif operator == operatorList[2]:
