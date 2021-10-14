@@ -7,6 +7,9 @@ def multiply_list():
 
 
     for i in numList:
-        product = product * i
-        if i == 0:
+        if type(i) == int or type(i) == float:
+            product = product * i
+        else:
             return bool(0)
+
+    return product
