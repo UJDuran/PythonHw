@@ -1,6 +1,6 @@
 def multiply_list():
     numList = input()
-    numList = [int(x) for x in numList.splt()]    
+    numList = [int(x) for x in numList.split()]    
 
     product = 1
     for i in numList:
