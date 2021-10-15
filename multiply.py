@@ -1,15 +1,16 @@
 def multiply_list():
-    print ("Enter a list of numbers seperated by a space")
-    numList = [int(x) for x in input().split()]
-
+    numList = []
+    inputList = input()
+    inputList = inputList.split()
+    
     product = 1
-    isNum = bool(1)
-
-
+    
+    for i in inputList:
+        if i.isdigit
+        numList.append(i)
+    else:
+        return bool(0)
+    
     for i in numList:
-        if type(i) == int or type(i) == float:
-            product = product * i
-        else:
-            return bool(0)
-
+        product = product * i
     return product
