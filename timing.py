@@ -1,5 +1,8 @@
-from datetime import time
-def calculate_time(func):
-    theTime = time.time()
+import time
 
-    print("Total time ", theTime)
+def calculate_time(func):
+    start = time.time()
+    func()
+    end = time.time()
+
+    print("Total time ", end - start)
