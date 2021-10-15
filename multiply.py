@@ -1,10 +1,11 @@
 def multiply_list():
     numList = input()
-    numList = [int(x) for x in numList.split()]    
+    
 
     product = 1
     for i in numList:
-        product = product * i
+        if i.isdigit:
+            product = product * i
     return product
 
     for i in numList:
